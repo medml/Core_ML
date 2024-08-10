@@ -7,21 +7,32 @@ We'll have a set of introductory notebooks focused on interactively understandin
 The examples will be anchored in *STEP 1* concepts and memorizations - ensuring a shared foundation.
 Specifically, we'll develop *toy models* of these concepts and memorizations, allowing us to focus on building an intuition of ML.
 
-## Linear Regression
-Linear regression is the workhorse of ML so we'll spend a decent amount of time/effort on linear regression.
-But in a fun way.
+## Basic Concepts
+### Training/Testing
+One of the core concepts in ML is seeing your *data* separate from your *patient*.
+If we just looked at all of our data and calculating stuff on it, there's a big chance we're analysing things that have nothing to do with our patient.
 
-## Logistic/Classification
+The idea of "training and testing" splits in ML is central to understanding how we can build big, complex models on data in a way that's trustworthy.
+Think of it like a "virtual second experiment".
+
+### Ethics and Bias
+Everything we do introduces **bias**.
+This means something specific in ML, but it also involves societal biases.
+This is important to see early in your ML learning.
+
+## Types of Models
+### Regressions
+Linear regression is the core of ML, all of it, so getting a solid foundation here is worth it!
+
+Think of linear regression as a way to map from "lab values" to "health values"
+
+### Classifications
+
 Being able to tell which 'group' a dataset belongs to is largely what we're taught in medical school.
 Symptoms = Data, and Groups = Diseases.
 Using ML to assist us in this by seeing patterns that we can't easily see is a perfect starting point for us to understand ML.
 
-## Deep Learning
+### Neural Networks
 Where all the 'excitement' seems to be happening in modern ML.
 We'll have some simple notebooks meant to highlight how DL goes beyond traditional ML by using powerful computers.
 Naturally, it'll be tough to run these live in a workshop so we'll be relying on other resources to bridge you towards full understanding.
-
-## Ethics and Bias in Medical ML
-ML is a powerful tool and, like any tool, it can do as much harm as it can good.
-Being able to understand the limitations of ML algorithms is critical to properly using it in patientcare.
-Better understanding the role of the physician in the process, in turn, can help us figure out the best ML-tools to address our patient's specific needs.
