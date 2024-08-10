@@ -1,8 +1,11 @@
 # Core_ML
 This is where you'll find the notebooks we consider 'core' to learning medicine-relevant ML.
+The intended audience here is M2/M3 students in medical school with engineering-level mathematical training.
 
 ## Introductions
 We'll have a set of introductory notebooks focused on interactively understanding ML and how it differs from what came before.
+The examples will be anchored in *STEP 1* concepts and memorizations - ensuring a shared foundation.
+Specifically, we'll develop *toy models* of these concepts and memorizations, allowing us to focus on building an intuition of ML.
 
 ## Linear Regression
 Linear regression is the workhorse of ML so we'll spend a decent amount of time/effort on linear regression.
